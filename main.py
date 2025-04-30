@@ -191,7 +191,7 @@ class PokerGame:
                 self.report_gain_or_loss(folded=True)
                 return False
             else:
-                # If the input is invalid prompt it again 
+                # If the input is invalid prompt it again with the options 
                 print("Invalid input. Please type raise, stand, or fold.")
 
     def evaluate_winner(self):
@@ -248,7 +248,7 @@ class PokerGame:
 
 
 if __name__ == "__main__":
-    print("♠ Welcome to Poker - remember, your playing the player")
+    print("Welcome to Poker - remember, your playing the player")
     # Labeling player 1 as you
     player1 = Player("You", is_user=True)
 
